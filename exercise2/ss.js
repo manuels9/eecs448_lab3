@@ -11,7 +11,7 @@ function previous()
     imgNum = 5;
   }
   currentImage.value = imgNum.toString();
-  currentImage.src = "images/img" + imgNum + ".gif";
+  currentImage.src = "images/img" + imgNum + ".jpg";
 }
 
 function next()
@@ -31,5 +31,5 @@ function next()
     imgNum = 1;
   }
   currentImage.value = imgNum.toString();
-  currentImage.src = "images/img" + imgNum + ".gif";
+  currentImage.src = "images/img" + imgNum + ".jpg";
 }
