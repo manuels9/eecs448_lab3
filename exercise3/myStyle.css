@@ -6,12 +6,19 @@ h1
   font-size: 50pt;
 }
 
-p
+h2
 {
   background-color: black;
   color: white;
   font-family: times;
-  font-size: 12pt;
+  font-size: 25pt;
+}
+
+p
+{
+  color: white;
+  font-family: times;
+  font-size: 15pt;
 }
 
 body
@@ -24,9 +31,11 @@ body
 
 div.relative
 {
-  width: 1000px;
-  position: relative;
-  left: 100px;
+  background-color: rgba(0,0,0,0.5);
+  width: 1200px;
+  margin:0 auto;
+  /*position: relative;
+  left: 100px;*/
 }
 
 div.profilepicture
@@ -36,4 +45,19 @@ div.profilepicture
   height: 300px;
   position: relative;
   left: 100px;
+}
+
+a
+{
+  color: rgba(57,27,191);
+  font-family: times;
+  font-size: 15pt;
+  position: relative;
+  left: 50px;
+}
+
+a:hover
+{
+  background-color: black;
+  color: white;
 }
