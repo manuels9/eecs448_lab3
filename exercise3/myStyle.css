@@ -1,18 +1,39 @@
+h1
+{
+  background-color: black;
+  color: white;
+  font-family: times;
+  font-size: 50pt;
+}
+
 p
 {
-  background-color: blue;
-  color:white;
-  font-family: arial;
-  for-size: 22pt;
+  background-color: black;
+  color: white;
+  font-family: times;
+  font-size: 12pt;
 }
 
 body
 {
-  background-color: black;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
 }
 
 div.relative
 {
+  width: 1000px;
+  position: relative;
+  left: 100px;
+}
+
+div.profilepicture
+{
+  background: url(profilepic.jpg) 50% 10% no-repeat;
+  width: 300px;
+  height: 300px;
   position: relative;
   left: 100px;
 }
