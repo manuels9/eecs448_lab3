@@ -1,6 +1,8 @@
 a
 {
   font-size: 20pt;
+  position:relative;
+  left: 20px;
 }
 
 body
@@ -38,4 +40,6 @@ h2
   color: rgba(33,45,173);
   font-family: arial;
   font-size: 30pt;
+  position: relative;
+  left: 20px;
 }
